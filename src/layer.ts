@@ -1,8 +1,14 @@
 class Layer {
   nodes: Array<number>;
   highestRandomNodeValue: number = 10;
+  activationFunction: (x: number) => number;
 
-  constructor(numberOfNodes: number, values?: Array<number>) {
+  constructor(
+    numberOfNodes: number,
+    values?: Array<number>,
+    activationFunction: (x: number) => number
+  ) {
+    this.activationFunction = activationFunction;
     this.nodes = [];
 
     // if they are giving values for the nodes
