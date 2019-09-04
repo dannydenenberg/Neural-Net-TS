@@ -1,0 +1,19 @@
+{
+  "name": "neural-net-ts",
+  "version": "1.0.0",
+  "description": "A Neural Network in pure Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannydenenberg/Neural-Net-TS.git"
+  },
+  "author": "Daniel Denenberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dannydenenberg/Neural-Net-TS/issues"
+  },
+  "homepage": "https://github.com/dannydenenberg/Neural-Net-TS#readme"
+}
